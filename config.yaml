@@ -1,0 +1,11 @@
+datasets:
+  ATest:
+    path: "datasets_test/testset_1.dps"
+    path_nix: "datasets_test/nix/testset_1.nix"
+    name: "ATest"
+    path_dapsys: "NI Puls Stimulator/Continuous Recording"
+    time1: 200
+    time2: 922
+    track_of_interest: "Track3"
+    threshold: 3.00
+    ground_truth_flag: False
