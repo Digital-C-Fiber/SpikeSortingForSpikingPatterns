@@ -12,8 +12,7 @@ def get_recordings(wildcards):
 
 rule all:
     input:
-        expand("results/scores/{model}/{feature}/{dataset}_results.csv",model=MODELS , dataset= DATASETS, feature=FEATURES),
-        expand("datasets_test/nix/{dataset}.nix", dataset= DATASETS)
+        expand("results/scores/{model}/{feature}/{dataset}_results.csv",model=MODELS , dataset= DATASETS, feature=FEATURES)
 
 
 rule run_ocsvm:
