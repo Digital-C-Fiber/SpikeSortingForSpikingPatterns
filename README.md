@@ -68,6 +68,7 @@ conda install -c conda-forge snakemake
 ├── datasets_test/
 │   ├── testset_1.dps              # Example Dapsys file
 │   └── nix/                       # Output folder for NIX
+├── Statistics/                    # R scripts for statistical analysis
 ```
 
 ---
